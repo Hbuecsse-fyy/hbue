@@ -84,6 +84,6 @@ public class MyCrawler {
     //main 方法入口
     public static void main(String[] args) {
         MyCrawler crawler = new MyCrawler();
-        crawler.crawling(new String[]{"https://www.imooc.com/course/listx"});
+        crawler.crawling(new String[]{"https://www.imooc.com/course"});
     }
 }
